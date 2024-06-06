@@ -1,0 +1,43 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "blueimp-md5": "^2.19.0",
+    "crypto-js": "^4.2.0",
+    "file-type": "^19.0.0",
+    "md5": "^2.3.0",
+    "p-queue": "^8.0.1",
+    "react": "^18.2.0",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "^18.2.0",
+    "react-player": "^2.15.1",
+    "react-queue": "^0.6.1",
+    "react-resize-detector": "^10.0.1",
+    "react-timer-hook": "^3.0.7",
+    "react-webcam": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/blueimp-md5": "^2.18.2",
+    "@types/crypto-js": "^4.2.2",
+    "@types/md5": "^2.3.5",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}

@@ -1,0 +1,4 @@
+export enum SSEEvents {
+  STREAM_STARTED = 'STREAM_STARTED',
+  SUCCESS_UPLOAD = 'SUCCESS_UPLOAD',
+}

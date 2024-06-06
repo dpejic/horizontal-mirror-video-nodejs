@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.camera-button {
+  padding: 10px;
+  width: max-content;
+  border: none;
+  cursor: pointer;
+}
+
+.camera-button:hover {
+  background-position: right center;
+  color: gray;
+  text-decoration: none;
+}
+
+.video-showcase {
+  max-width: 500px;
+  z-index: 0;
+}
